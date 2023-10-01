@@ -4,13 +4,12 @@ import 'match_number_one.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.blueGrey,
         title: const Text('Match List',style: TextStyle(
           color: Colors.white,
           fontSize: 25
@@ -26,7 +25,7 @@ class HomeScreen extends StatelessWidget {
               trailing: IconButton(
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return const ArgentinaVsAfrica();
+                    return   const ArgentinaVsAfrica();
                   }));
                 },
                 icon: const Icon(Icons.arrow_forward),

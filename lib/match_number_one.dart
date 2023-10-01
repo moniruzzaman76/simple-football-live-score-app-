@@ -6,10 +6,11 @@ class ArgentinaVsAfrica extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title:  const Row(
+        title:   const Row(
           children: [
             Text("Argentina",
               style: TextStyle(
